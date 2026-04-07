@@ -69,7 +69,7 @@ jobs:
           sed -i '$i res=$(echo "$res" | sed '\''s/-dirty//g'\'')' "$f"
           done
       
-      - name: 集成SukiSU
+      - name: 集成ReSukiSU
         id: ksu_version
         run: |
           cd kernel_workspace/common
