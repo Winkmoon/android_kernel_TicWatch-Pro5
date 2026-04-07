@@ -4,7 +4,6 @@ env:
   ANDROID_VERSION: 'android13'
   KERNEL_VERSION: '5.15'
   KERNEL_NAME: 'Xinran_TicWatchPro5'
-  ENABLE_BBG: ${{ github.event.inputs.enable_bbg }}
 on:
   workflow_dispatch:
         
